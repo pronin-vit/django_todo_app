@@ -19,7 +19,7 @@
 			
 			<div class="row">
 				<div class="col-lg-4 col-lg-offset-4" id="content">
-					<h2>WHAT DO YOU WANT TO DO TODAY?</h2>
+					<h2>ЧТО БУДЕМ ДЕЛАТЬ СЕГОДНЯ?</h2>
 					
 					<form action="{% url 'add' %}" method="POST" role="form">
 						{% csrf_token %}
@@ -38,12 +38,12 @@
 							<div class="btn-toolbar">
 								<div class="btn-group">
 									<a href="{% url 'deletecomplete' %}"><button type="button" class="btn btn-warning">
-										<i class="glyphicon glyphicon-trash"></i> DELETE COMPLETED
+										<i class="glyphicon glyphicon-trash"></i> УДАЛИТЬ ЗАВЕРШЕННОЕ
 									</button></a>
 								</div>
 								<div class="btn-group">
 									<a href="{% url 'deleteall' %}"><button type="button" class="btn btn-warning">
-										<i class="glyphicon glyphicon-trash"></i> DELETE ALL
+										<i class="glyphicon glyphicon-trash"></i> УДАЛИТЬ ВСЕ
 									</button></a>
 								</div>
 							</div>
@@ -65,7 +65,7 @@
 			<footer>
 				<div class="row pad">
 					<div class="col-lg-12 text-center">
-						Copyright &copy; 2017 <strong>ToDo App</strong>
+						Copyright &copy; 2022 <strong>ToDo App</strong>
 					</div>
 				</div>
 			</footer>
